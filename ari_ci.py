@@ -1,7 +1,7 @@
 # Author: Benedikt Boecking
 # License: MIT
 # The ari computation was adapted from sklearn
-# The CI computation follows the description of the ARI variance computation in 
+# The CI computation follows 
 # Steinley, Douglas, Michael J. Brusco, and Lawrence Hubert. "The variance of the adjusted Rand index." 
 #    Psychological methods 21.2 (2016): 261.
 
