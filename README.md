@@ -1,5 +1,7 @@
 # AdjustedRandCI
-Compute Adjusted Rand Index and Confidence Interval. The confidence interval is an approximate normal confidence interval using the exact variance of the Adjusted Rand Index.
+Compute Adjusted Rand Index and Confidence Interval. The confidence interval is an approximate normal confidence interval using the exact variance of the Adjusted Rand Index. 
+
+For details see: Steinley, Douglas, Michael J. Brusco, and Lawrence Hubert. "The variance of the adjusted Rand index." Psychological methods 21.2 (2016): 261.
 
 # Dependencies 
 
