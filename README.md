@@ -15,5 +15,6 @@ from ari_ci import ari_ci
 clusters = np.array([0,1,1,1,1,1,1,1,1,0,0,0,0])
 trueclusters = np.array([0,1,1,1,1,0,0,1,1,1,0,0,0])
 
+# print ARI, variance of ARI, lower CI, upper CI
 print(ari_ci(clusters,trueclusters,alpha = 0.05))
 ```
