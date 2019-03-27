@@ -31,6 +31,8 @@ def ari_ci(clusters,trueclusters,alpha = 0.05):
     -------
     ari : float
         Adjusted Rand Index between -1.0 and 1.0. 
+    ari_variance : float
+        variance of the ARI
     lowerci : float 
         CI lower limit 
     upperci : float
@@ -80,7 +82,7 @@ def ari_ci(clusters,trueclusters,alpha = 0.05):
     lowerci = ari - qnrm*ari_std
     upperci = ari + qnrm*ari_std
     
-    return ari,lowerci,upperci
+    return ari,ari_variance,lowerci,upperci
     
     
 if __name__ == "__main__":
